@@ -302,6 +302,7 @@ p{
 }
 
 /* Formulaire de Contact */
+
 #modal-btn{
     background: transparent;
     border: none;
@@ -347,14 +348,19 @@ p{
     padding-top: 5px;
     padding-right: 15px;
     padding-left: 15px;
-    border: dashed rgb(161, 11, 11);;
-
+    border: dashed rgb(161, 11, 11);
   }
+
+  .modal .close:hover{
+    color:rgb(161, 11, 11);
+  }
+
   .modal .cont {
     font-family: 'Source+Serif+Pro',serif ;
-    color: white;
+    color: rgb(161, 11, 11);
     margin-right: auto;
     margin-left: auto;
+    padding-top: 10px;
     text-decoration: underline;
   }
 
